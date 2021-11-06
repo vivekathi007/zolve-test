@@ -1,0 +1,32 @@
+.clipboard {
+  position: relative;
+  width: 300px;
+}
+
+/* .clipboard input {
+  height: 2.5rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+} */
+
+.copy-clipboard {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+  border: 1px solid transparent;
+  margin: 0;
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+  box-shadow: 0 1rem 3rem black !important;
+  padding: 0.25rem;
+}
